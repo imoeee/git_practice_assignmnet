@@ -10,7 +10,7 @@ for(let i=2;i<num;i++){
     }
 }
 if(flag == 'true'){
-    console.log('prime number');
+    console.log(num +' prime number');
 }else{
-    console.log('Not prime number');
+    console.log(num + ' Not prime number');
 }
