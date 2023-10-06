@@ -1,16 +1,15 @@
 //  Prime Numbers
 
-let num = 13;
-let flag = 'true';
+let num = 4;
+let count = 0;
 
-for(let i=2;i<num;i++){
+for(let i=1;i<=num;i++){
     if(num % i === 0){
-        flag = 'false';
-        break
+        count = count + 1;
     }
 }
-if(flag == 'true'){
-    console.log('prime number');
+if(count > 1 ){
+    console.log(num + ' prime number');
 }else{
-    console.log('Not prime number');
+    console.log(num + ' Not prime number');
 }
